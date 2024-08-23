@@ -1,0 +1,51 @@
+/* src/components/GroceryItem.css */
+.grocery-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9f9f9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.05);
+  font-size: 20px;
+}
+
+.grocery-item:hover {
+  background-color: #e0f7fa;
+}
+
+.grocery-item .quantity {
+  font-weight: bold;
+}
+
+input[type="checkbox"] {
+  transform: scale(1.5);
+  margin-right: 15px;
+}
+
+input[type="checkbox"]:checked + span {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.delete-button {
+  background-color: #ff5252;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.delete-button:hover {
+  background-color: #ff1744;
+}
+.grocery-item {
+  cursor: pointer;
+}
+
+.strikethrough {
+  text-decoration: line-through;
+}
